@@ -17,7 +17,7 @@ include = [
 ]
 
 [tool.poetry.dependencies]
-python = ">=3.8,<4.0"
+python = ">=3.10,<4.0"
 cookiecutter = "^2.1.1"
 
 [tool.poetry.group.dev.dependencies]
@@ -39,7 +39,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.black]
 line-length = 120
-target-version = ['py37']
+target-version = ['py310']
 preview = true
 
 [tool.isort]
